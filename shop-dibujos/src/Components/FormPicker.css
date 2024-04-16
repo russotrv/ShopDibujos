@@ -1,0 +1,64 @@
+[id^="rc-editable-input-"]
+{
+    background-color: rgb(212, 212, 212);
+    min-width: 45px;
+}
+
+/* Estilos para el contenedor del formulario */
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin: 25px 0;
+}
+
+  /* Estilos para el formulario */
+form {
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: rgba(13, 13, 13, 0.897); 
+}
+
+  /* Estilos para los elementos del formulario */
+form > div {
+    margin-bottom: 15px; /* Espacio entre elementos */
+}
+
+  /* Estilos para el botón de envío */
+form button {
+    padding: 10px 20px; /* Espaciado interno */
+    border-color: rgb(35, 255, 200); /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: transparent; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+/* Estilos adicionales para los elementos de entrada */
+input, .react-datepicker-wrapper {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio entre elementos */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el borde en el ancho total */
+}
+
+.react-datepicker-popper {
+    z-index: 9999; /* Asegura que el calendario aparezca por encima de otros elementos */
+}
+
+.color-picker-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+  /* Estilos para el ChromePicker */
+.react-colorful {
+    margin: auto; /* Centra horizontalmente */
+}

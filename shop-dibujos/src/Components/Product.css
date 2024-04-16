@@ -1,0 +1,75 @@
+.libritos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.prints-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.card{
+/*    background-color: rgba(67, 85, 89, 0.42);*/
+    background-color: rgba(9, 9, 28, 0.464);
+    padding: 20px 5px;
+    border: 2px solid rgba(69, 32, 101, 0.483);
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 5px;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center;
+}
+
+.card-personalizado{
+    background-color: rgba(67, 85, 89, 0.42);
+    padding: 15px 5px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 5px;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center;
+    width: 210px;
+}
+
+.slick-slide img{
+    display: inline-block !important;
+}
+
+.tapa{
+    max-height: 210px;
+}
+
+.tapa:hover{
+    cursor: pointer;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    color: rgb(211, 210, 210);
+    margin: 5px;
+}
+
+.texto-descriptivo{
+    margin-bottom: 20px;
+}
+
+.to-personalizado{
+    background-color: rgba(5, 61, 49, 0.42);
+    border: 1px solid rgb(78, 207, 174);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    color:rgb(244, 249, 248);
+}
+
+.to-personalizado:hover{
+    color: rgb(78, 207, 174);
+    background-color: transparent;
+    border-color: rgb(10, 114, 92);
+    box-shadow: 0 1px 3px rgba(162, 253, 230, 0.51);
+}

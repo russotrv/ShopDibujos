@@ -1,0 +1,129 @@
+/*Carrito Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-carrito-vacio{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main-carrito{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.carrito {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.carrito .cart-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 30px;
+    margin: 10px;
+}
+
+.carrito li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px; 
+}
+
+.carrito img{
+    max-height: 140px;
+    margin-right: 63px;
+}
+
+.carrito div {
+    margin-left: 63px; 
+    width: 300px;
+    display: flex; /* Utiliza flexbox para alinear el contenido */
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    align-items: center;
+    /* Agrega un espacio entre la imagen y el contenido de texto */
+}
+
+.carrito footer {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.carrito footer button {
+    margin-left: 10px; /* Agrega un espacio entre los botones */
+}
+
+.carrito footer button:nth-of-type(1):hover {
+    border-color: rgb(35, 255, 200); /* Cambia el borde a verde cuando se hace hover en el primer botón */
+}
+
+.carrito footer button:last-child:hover {
+    border: 1px solid rgb(255, 2, 2); /* Cambia el borde a rojo cuando se hace hover en el segundo botón */
+}
+
+#detalle-carrito{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 5px;
+
+}
+
+#total-carrito{
+    margin: 5px;
+}
+
+#botones-carrito{
+    display: flex;
+    padding: 2px 15px;
+}
+
+#botones-carrito button {
+    margin: 5px 5px;
+}
+
+#boton-pagar{
+    border: 1px solid rgb(35, 255, 200);
+}
+
+#boton-pagar:hover{
+    color: rgb(35, 255, 200);
+}
+
+#boton-vaciar-carrito{
+    border: 1px solid rgb(255, 2, 2);
+}
+
+#boton-vaciar-carrito:hover{
+    color:rgb(255, 2, 2);
+}
+
+#carrito-vacio-container{
+    margin-top: 15px;
+}
+
+#carrito-vacio-button{
+    padding: 7px;
+    border: 1px solid rgb(35, 255, 200);
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgba(35, 255, 200, 0.345);
+}
+
+#carrito-vacio-button:hover{
+    background-color: transparent;
+    border-color: rgb(35, 255, 200);
+    color: rgb(35, 255, 200);
+}
