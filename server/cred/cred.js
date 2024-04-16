@@ -1,1 +1,2 @@
-export const ACCESS_TOKEN = 'TEST-1357865891117318-030516-c030b9814d88bf84d0aad93145a81473-174791943'
+//Clave que se obtiene al generar una api en MercadoPago desarrolladores
+export const ACCESS_TOKEN = 'Clave-De-Prueba-MP'
