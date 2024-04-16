@@ -18,7 +18,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/", (req,res) =>{
-    res.send("Soy el server pa ;)")
+    res.send("Server corriendo correctamente ;)")
 })
 
 app.post("/create_preference", async (req, res) => {
